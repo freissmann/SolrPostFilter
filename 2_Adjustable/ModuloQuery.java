@@ -76,5 +76,4 @@ public class ModuloQuery extends ExtendedQueryBase implements PostFilter {
         }
         return true;
     }
-
 }
