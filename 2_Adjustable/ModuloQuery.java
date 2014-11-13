@@ -50,7 +50,6 @@ public class ModuloQuery extends ExtendedQueryBase implements PostFilter {
                 if (currentDocId.intValue() % moduloX == 0) {
                     super.collect(docNumber);
                 }
-
             }
         };
     }
