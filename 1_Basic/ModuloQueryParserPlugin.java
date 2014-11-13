@@ -11,8 +11,7 @@ import org.apache.solr.search.SyntaxError;
 public class ModuloQueryParserPlugin extends QParserPlugin {
 
     @Override
-    public QParser createParser(String qstr, SolrParams localParams,
-            SolrParams params, SolrQueryRequest req) {
+    public QParser createParser(String qstr, SolrParams localParams, SolrParams params, SolrQueryRequest req) {
 
         return new QParser(qstr, localParams, params, req) {
 
