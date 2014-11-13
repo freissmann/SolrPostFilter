@@ -8,7 +8,7 @@ import org.apache.solr.search.DelegatingCollector;
 import org.apache.solr.search.ExtendedQueryBase;
 import org.apache.solr.search.PostFilter;
 
-class ModuloQuery extends ExtendedQueryBase implements PostFilter {
+public class ModuloQuery extends ExtendedQueryBase implements PostFilter {
 
     @Override
     public int getCost() {
